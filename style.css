@@ -1,0 +1,92 @@
+body{
+    background-color: #2161CB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    width: 30%;
+    height: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 30 black;
+    overflow: auto;
+}
+
+.input-container{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#input{
+    flex: 1;
+    border-radius: 5px;
+    border: 2px solid #77A0F1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.input-container button{
+    border: none;
+    background: #c1d2ee;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.input-container button:hover{
+    background: #6ea4f5;
+    color: white;
+}
+
+.input-container button i{
+    color: black;
+}
+
+
+#taskcontainer{
+    padding: 10px 30px;
+}
+
+.task{
+    background: #C5E1E5;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.task li{
+    list-style: none;
+    flex: 3;
+    font-size: 20px;
+}
+
+.checktask{
+    flex: 0.3;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    background: #1D1BA3;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.deletetask{
+    flex: 0.3;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    background: #1D1BA3;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
